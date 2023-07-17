@@ -1,0 +1,59 @@
+.body {
+    height: auto;
+    width: 800px;
+    margin: 0px auto;
+  }
+  .container1 {
+    border: 1px solid rgb(182, 223, 200);
+    border-radius: 5px;
+    align-items: center;
+    padding-bottom: 2px;
+  }
+  .container1:hover {
+    border: 1px solid;
+  }
+  .imgBox {
+    position: relative;
+  }
+  
+  .img {
+    max-width: 150px;
+    max-height: 120px;
+    position: absolute;
+    margin-top: -14px;
+    margin-left: 100px;
+    
+  }
+  
+  .text {
+    margin-left: 320px;
+    margin-top: 0;
+    width: 58.33%;
+  
+    vertical-align: top;
+  }
+  .rate span {
+    background-color: green;
+    color: white;
+    padding: 2px 4px 2px 6px;
+    padding-left: 5px;
+    border-radius: 5px;
+  }
+  .price {
+    font-family: Roboto, Arial, sans-serif;
+    letter-spacing: 0;
+    margin-top: -15px;
+  }
+  
+  h5 {
+    display: inline;
+  }
+  p {
+    display: inline;
+  }
+  .category {
+    font-weight: bold;
+  }
+  .head{
+    text-align: center;
+  }
